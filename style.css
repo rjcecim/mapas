@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+#map {
+    width: 100%;
+    height: 80vh;
+}
+
+#checkboxContainer .form-check {
+    margin-bottom: 0.5rem;
+}
+
+.card-header span {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.leaflet-tooltip {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+}
+
+.btn-primary:hover, .btn-success:hover, .btn-secondary:hover {
+    opacity: 0.9;
+    transition: opacity 0.3s;
+}
+
+#citySearch {
+    transition: all 0.3s ease;
+}
+
+#citySearch:disabled {
+    background-color: #e9ecef;
+}
